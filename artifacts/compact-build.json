@@ -1,0 +1,9 @@
+{
+  "canonical_source": "contracts/skill_guard.py",
+  "canonical_sha256": "39d65ba94fb04d087a050fe51f7cd2fc14ba644bc08ed85bbf8e152dc3c61570",
+  "canonical_bytes": 41717,
+  "compact_source": "contracts/skill_guard_compact.py",
+  "compact_sha256": "6e76cc92b10ddb1f8cecf86b41096d733106ef636f06640dbba25fbef3114d10",
+  "compact_bytes": 34332,
+  "ast_equivalent": true
+}

@@ -1,0 +1,18 @@
+{
+  "network": "studio-dev",
+  "rpcUrl": "https://studio-dev.genlayer.com/api",
+  "chainId": 61997,
+  "contractAddress": "0x1C357d261e5A048FFEdA6Ac79Ea532ebb429DEAe",
+  "deploymentTx": "0xe563d072307604b9f51546bb47b0dadfaf3708e78a25df03e86f76ad5b65d051",
+  "policyVersion": "skillguard/2",
+  "rubricVersion": "skillguard/capability-rubric/2",
+  "canonicalSourceSha256": "39d65ba94fb04d087a050fe51f7cd2fc14ba644bc08ed85bbf8e152dc3c61570",
+  "compactSourceSha256": "6e76cc92b10ddb1f8cecf86b41096d733106ef636f06640dbba25fbef3114d10",
+  "runner": "py-genlayer:babwp9t37jw9g4j2bccgn14g6x7x9s1f7dsmh7emvz735pz4zxa0",
+  "verified": true,
+  "e2eVerified": false,
+  "environmentType": "hosted-development-simulator",
+  "publicChainDeploymentVerified": true,
+  "sampleReleaseIds": [],
+  "verifiedAt": "2026-11-09T17:08:28.661Z"
+}

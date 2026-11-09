@@ -1,0 +1,20 @@
+{
+  "network": "bradbury-phase-2",
+  "chainId": 4221,
+  "rpcUrl": "https://rpc-bradbury.genlayer.com",
+  "explorerUrl": "https://scan.bradbury.genlayer.com/address/0x6AA5b430483d7DfBae3CBEc4e578160DE9504612",
+  "actorAddress": "0x5d89aa5eaa6dc6734ded7ebe060f4b8682c504bd",
+  "contractAddress": "0x6AA5b430483d7DfBae3CBEc4e578160DE9504612",
+  "protocolTxId": "0x401dee443cff3f815efe941b5709f3bdaf2d154062be1d4f920284d247c498d7",
+  "envelopeHash": "0xf243f48f508760a116c18e2ea7452c1bbbb53e5d0cc5159620c7b3b9b5d3e1c6",
+  "blockNumber": "268801",
+  "blockHash": "0x1354c2549d452873147144df864153ac24f282d5803a5b767982ee623c0d0986",
+  "status": "FINALIZED",
+  "consensusResult": "MAJORITY_AGREE",
+  "executionResult": "FINISHED_WITH_RETURN",
+  "policyVersion": "skillguard/2",
+  "initialReleaseCount": 0,
+  "canonicalSourceSha256": "39d65ba94fb04d087a050fe51f7cd2fc14ba644bc08ed85bbf8e152dc3c61570",
+  "compactSourceSha256": "6e76cc92b10ddb1f8cecf86b41096d733106ef636f06640dbba25fbef3114d10",
+  "verifiedAt": "2026-11-09T21:34:15.347Z"
+}

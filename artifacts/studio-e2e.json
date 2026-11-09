@@ -1,0 +1,199 @@
+{
+  "verifiedAt": "2026-11-09T17:17:36.104Z",
+  "rpcUrl": "https://studio-dev.genlayer.com/api",
+  "chainId": 61997,
+  "contractAddress": "0x1C357d261e5A048FFEdA6Ac79Ea532ebb429DEAe",
+  "releaseId": 1,
+  "treeSha256": "a707f860579e11607d94133d9f75d005eb9757f7cb4480cec4c02f170b94fda2",
+  "transactions": {
+    "register_release": "0x4dedf854bf823bb72f4cb20e6a8ec9358833d0d05467c4d19d0fa91410bd572f",
+    "lock_evidence": "0xf9af5bbd896166019de472090d6ceaf902824a0674de10a451b1024a628209d9",
+    "audit_release": "0x4a7ef371de4dc9b00ea64c226c24872ecc548169745fd2c7e3ed64fc6278fd3f"
+  },
+  "snapshotHash": "de57e628d336023dd3e54da47555087b49b738826a0f10ace322db5d2815f6ba",
+  "attestation": {
+    "audit_round": 1,
+    "audited_at": "2026-11-09T17:09:57.780199Z",
+    "capability_checks": [
+      {
+        "capability_id": "network_access",
+        "evidence_indices": [],
+        "state": "NOT_OBSERVED"
+      },
+      {
+        "capability_id": "filesystem_write",
+        "evidence_indices": [],
+        "state": "NOT_OBSERVED"
+      },
+      {
+        "capability_id": "subprocess_exec",
+        "evidence_indices": [],
+        "state": "NOT_OBSERVED"
+      },
+      {
+        "capability_id": "secret_env_access",
+        "evidence_indices": [],
+        "state": "NOT_OBSERVED"
+      }
+    ],
+    "commit_sha": "3e6c86392c97fbc30d3d20a378a6f58beba08eba",
+    "declared_vs_actual_mismatch": false,
+    "evaluated_challenge_ids": [],
+    "finding_categories": [],
+    "policy_version": "skillguard/2",
+    "proven_omitted_paths": [],
+    "release_id": 1,
+    "repo": "OpenZeppelin/openzeppelin-contracts",
+    "resolved_challenge_ids": [],
+    "risk_level": "LOW",
+    "rubric_version": "skillguard/capability-rubric/2",
+    "scope_disclaimer": "Consensus risk signal over complete commit-pinned release tree and manifest.",
+    "skill_id": "oz-context-inspector-skill",
+    "snapshot_hash": "de57e628d336023dd3e54da47555087b49b738826a0f10ace322db5d2815f6ba",
+    "source_checks": [
+      {
+        "byte_length": 786,
+        "index": 0,
+        "path": "contracts/package.json",
+        "sha256": "df006f53ca4a9b70f61f82727b9ab8a43114ee8b1385f838a95ae05949aa961e",
+        "status": "VERIFIED"
+      },
+      {
+        "byte_length": 860,
+        "index": 1,
+        "path": "contracts/utils/Context.sol",
+        "sha256": "9c1cc43aa4a2bde5c7dea0d4830cd42c54813ff883e55c8d8f12e6189bf7f10a",
+        "status": "VERIFIED"
+      }
+    ],
+    "spec_hash": "33cf61dbba86d69c8fd1ad93d4fabddc393c63904260cea19798061022219d29",
+    "static_signals": [],
+    "summary": "Audited Solidity utility contract (Context.sol) and manifest. No executable code, capabilities, or threats observed. Code is a simple view-only library providing blockchain transaction context.",
+    "tree_sha256": "a707f860579e11607d94133d9f75d005eb9757f7cb4480cec4c02f170b94fda2",
+    "undeclared_capabilities": [],
+    "verdict": "APPROVED"
+  },
+  "omittedEvidenceChallengeE2E": {
+    "releaseId": 2,
+    "commitSha": "b7f748eae2341b9e8e8f85cf966e94476813d168",
+    "challengeId": 1,
+    "transactions": {
+      "register_release": "0x28ea602ff10e2ce4de1da04b62ae0d351f9dce6858c82d3984aaea4bb05173b9",
+      "lock_evidence": "0xc3a35b04a52078a5bfbf3b9944d55638d499bf6d858d199e8c7a078600fb7cc6",
+      "audit_release_round1": "0x327714fb56953416077564923320f734e01a391c5639d569d1cd7d6b62710c2b",
+      "challenge_release": "0xf89808077325034609ca1d7ea7334bfbebe3250605a6bfb62c516ced190d9cc8",
+      "lock_challenge_evidence": "0x37f4a8f78b21e3e82929309daf07c001450bebf8059e8afdffa57c3538d036f5",
+      "audit_release_round2": "0xde92ca72c4c66b2cb464d259efffbd9e7b84a2eedac2403a2bbe612bbc0bef43"
+    },
+    "finalAttestation": {
+      "audit_round": 2,
+      "audited_at": "2026-11-09T17:16:35.106341Z",
+      "capability_checks": [
+        {
+          "capability_id": "network_access",
+          "evidence_indices": [],
+          "state": "NOT_OBSERVED"
+        },
+        {
+          "capability_id": "filesystem_write",
+          "evidence_indices": [],
+          "state": "NOT_OBSERVED"
+        },
+        {
+          "capability_id": "subprocess_exec",
+          "evidence_indices": [],
+          "state": "NOT_OBSERVED"
+        },
+        {
+          "capability_id": "secret_env_access",
+          "evidence_indices": [],
+          "state": "NOT_OBSERVED"
+        }
+      ],
+      "commit_sha": "b7f748eae2341b9e8e8f85cf966e94476813d168",
+      "declared_vs_actual_mismatch": true,
+      "evaluated_challenge_ids": [
+        1
+      ],
+      "finding_categories": [
+        "OMITTED_EXECUTABLE_OR_DEPENDENCY"
+      ],
+      "policy_version": "skillguard/2",
+      "proven_omitted_paths": [
+        "contracts/access/Ownable.sol"
+      ],
+      "release_id": 2,
+      "repo": "OpenZeppelin/openzeppelin-contracts",
+      "resolved_challenge_ids": [
+        1
+      ],
+      "risk_level": "CRITICAL",
+      "rubric_version": "skillguard/capability-rubric/2",
+      "scope_disclaimer": "Consensus risk signal over complete commit-pinned release tree and manifest.",
+      "skill_id": "oz-partial-tree-demo",
+      "snapshot_hash": "60e1e32f1528e74237b542f71e781fa8c4b0294839537ca25173892783ca1cdb",
+      "source_checks": [
+        {
+          "byte_length": 786,
+          "index": 0,
+          "path": "contracts/package.json",
+          "sha256": "e3e0121956d938f085920cc0ffe0d8ceebafa95dc39b58ec0c219d902de37294",
+          "status": "VERIFIED"
+        },
+        {
+          "byte_length": 1390,
+          "index": 1,
+          "path": "contracts/utils/Context.sol",
+          "sha256": "c070e80549c0319b25b4b2510004ecda5602a01c5ed9520adcb1354e9a0f2288",
+          "status": "VERIFIED"
+        },
+        {
+          "byte_length": 3102,
+          "index": 2,
+          "path": "contracts/access/Ownable.sol",
+          "sha256": "38578bd71c0a909840e67202db527cc6b4e6b437e0f39f0c909da32c1e30cb81",
+          "status": "VERIFIED"
+        }
+      ],
+      "spec_hash": "ec331ad2d10c3d4af3db1850d001a95805a85dec2d126ed7a5f9647cb6590057",
+      "static_signals": [
+        {
+          "code": "PROVEN_OMITTED_RELEASE_FILE",
+          "source_index": 2
+        }
+      ],
+      "summary": "Solidity sources only implement execution context and ownership control. No network, filesystem, subprocess, or secret access observed. Evidence indicates omitted executable dependency contracts/access/Ownable.sol.",
+      "tree_sha256": "ee3e658f6a4bc582d77d56030ccfef71c82d45e2f530f782fee70023555b60fb",
+      "undeclared_capabilities": [],
+      "verdict": "BLOCKED"
+    },
+    "finalChallenge": {
+      "challenge": {
+        "claimed_category": "OMITTED_EXECUTABLE_OR_DEPENDENCY",
+        "evidence_source_indices": [],
+        "omitted_sources": [
+          {
+            "byte_length": 3102,
+            "path": "contracts/access/Ownable.sol",
+            "role": "module",
+            "sha256": "38578bd71c0a909840e67202db527cc6b4e6b437e0f39f0c909da32c1e30cb81",
+            "url": "https://raw.githubusercontent.com/OpenZeppelin/openzeppelin-contracts/b7f748eae2341b9e8e8f85cf966e94476813d168/contracts/access/Ownable.sol"
+          }
+        ],
+        "statement": "Publisher omitted executable file contracts/access/Ownable.sol (3102 bytes) from the release tree_commitment at the exact same commit SHA."
+      },
+      "challenge_hash": "c1593b13f022c671ffb2e4aba7f654728562d325314660c24021aae61d6085bb",
+      "challenger": "0x6226145cb8e64e8db69b8dbe3f7403c5f396edf5",
+      "created_at": "2026-11-09T17:15:17.621927Z",
+      "evidence_locked": true,
+      "id": 1,
+      "release_id": 2,
+      "resolved_round": 2,
+      "resolved_verdict": "BLOCKED",
+      "status": "UPHELD",
+      "verified_omitted_paths": [
+        "contracts/access/Ownable.sol"
+      ]
+    }
+  }
+}

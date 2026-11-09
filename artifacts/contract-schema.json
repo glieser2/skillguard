@@ -1,0 +1,165 @@
+{
+  "rpcUrl": "https://studio-dev.genlayer.com/api",
+  "chainId": 61997,
+  "canonicalSha256": "39d65ba94fb04d087a050fe51f7cd2fc14ba644bc08ed85bbf8e152dc3c61570",
+  "compactSha256": "6e76cc92b10ddb1f8cecf86b41096d733106ef636f06640dbba25fbef3114d10",
+  "schema": {
+    "ctor": {
+      "params": [],
+      "kwparams": {}
+    },
+    "methods": {
+      "audit_release": {
+        "params": [
+          [
+            "release_id",
+            "int"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": false,
+        "ret": "null",
+        "payable": false
+      },
+      "challenge_release": {
+        "params": [
+          [
+            "release_id",
+            "int"
+          ],
+          [
+            "challenge_json",
+            "string"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": false,
+        "ret": "int",
+        "payable": false
+      },
+      "get_attestation": {
+        "params": [
+          [
+            "release_id",
+            "int"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": true,
+        "ret": "string"
+      },
+      "get_capability_rubric": {
+        "params": [],
+        "kwparams": {},
+        "readonly": true,
+        "ret": "string"
+      },
+      "get_challenge": {
+        "params": [
+          [
+            "challenge_id",
+            "int"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": true,
+        "ret": "string"
+      },
+      "get_challenge_count": {
+        "params": [],
+        "kwparams": {},
+        "readonly": true,
+        "ret": "int"
+      },
+      "get_evidence_snapshot": {
+        "params": [
+          [
+            "release_id",
+            "int"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": true,
+        "ret": "string"
+      },
+      "get_policy_version": {
+        "params": [],
+        "kwparams": {},
+        "readonly": true,
+        "ret": "string"
+      },
+      "get_release": {
+        "params": [
+          [
+            "release_id",
+            "int"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": true,
+        "ret": "string"
+      },
+      "get_release_count": {
+        "params": [],
+        "kwparams": {},
+        "readonly": true,
+        "ret": "int"
+      },
+      "get_release_id_by_commit": {
+        "params": [
+          [
+            "repo",
+            "string"
+          ],
+          [
+            "commit_sha",
+            "string"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": true,
+        "ret": "int"
+      },
+      "lock_challenge_evidence": {
+        "params": [
+          [
+            "release_id",
+            "int"
+          ],
+          [
+            "challenge_id",
+            "int"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": false,
+        "ret": "null",
+        "payable": false
+      },
+      "lock_evidence": {
+        "params": [
+          [
+            "release_id",
+            "int"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": false,
+        "ret": "null",
+        "payable": false
+      },
+      "register_release": {
+        "params": [
+          [
+            "release_json",
+            "string"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": false,
+        "ret": "int",
+        "payable": false
+      }
+    }
+  }
+}
